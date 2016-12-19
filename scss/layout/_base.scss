@@ -4,6 +4,16 @@
   }
 }
 
+.section-boxes {
+  span {
+    position: absolute;
+    font-size: 1.4em;
+    top: 25px;
+    right: 40px;
+    opacity: 0;
+  }
+}
+
 .scanning {
   background-color: $gold;
   p {
