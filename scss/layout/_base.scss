@@ -1,0 +1,28 @@
+.intro {
+  h1 {
+    font-size: 3.4em;
+  }
+}
+
+.scanning {
+  background-color: $gold;
+  p {
+    opacity: 0;
+    margin-top: 0;
+  }
+}
+.printing {
+  background-color: $red;
+}
+.enlargements {
+  background-color: $purple;
+}
+.projects{
+  background-color: $blue;
+}
+.sculpting {
+  background-color: $orange;
+}
+.contact {
+  background-color: $grey;
+}
