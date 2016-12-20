@@ -13,10 +13,18 @@ $(document).ready(function() {
     $(this).addClass("chosen");
   });
 
-  $(".section-boxes span").click(function() {
+  $(".section-boxes .close-box").click(function() {
     // debugger;
     $("body div").removeClass("smallerr")
     $(".sections div").removeClass("chosen");
+    $(".inside-box").addClass("not-yet");
+    $(".inside-box").removeClass("background-black");
+    event.stopPropagation();
+  });
+
+  $(".inside-box span").click(function() {
+    $(".inside-box").removeClass("not-yet");
+    $(".inside-box").addClass("background-black");
     event.stopPropagation();
   });
 });

@@ -20,3 +20,12 @@ $font-main   : "font-family: 'Yanone Kaffeesatz', sans-serif";
 $font-other  : "font-family: 'Varela Round', sans-serif";
 
 // Values
+
+
+
+// Animations
+@-webkit-keyframes glowing {
+  0%   { box-shadow: inset 0px 0px 25px $black-matte;}
+  50%  { box-shadow: inset 0px 0px 40px $black-matte;}
+  100% { box-shadow: inset 0px 0px 25px $black-matte;}
+}
