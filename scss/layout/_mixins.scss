@@ -1,0 +1,21 @@
+@mixin bg-pic($img, $type) {
+  background-image: url('../img/#{$img}.#{$type}');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  &:hover {
+    background: linear-gradient(to top, $black-transparent, $black-transparent), url('../img/#{$img}.#{$type}');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
+}
+
+@mixin bg-link($img) {
+  &:hover {
+    background: linear-gradient(to top, $black-transparent, $black-transparent);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
+}

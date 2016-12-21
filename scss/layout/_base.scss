@@ -1,6 +1,19 @@
 .intro {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-basis: 140px;
+  img {
+    height: 130px;
+  }
   h1 {
     font-size: 3.4em;
+    color: rgb(253, 145, 38);
+  }
+  @media (max-width: 425px) {
+    h1 {
+      font-size: 3em;
+    }
   }
 }
 
@@ -15,24 +28,28 @@
 }
 
 .scanning {
-  background-color: $gold;
+  background-color: $orange;
   p {
     opacity: 0;
     margin-top: 0;
   }
 }
 .printing {
-  background-color: $red;
+  background-color: $black-transparent;
+  @include bg-link('');
 }
 .enlargements {
-  background-color: $purple;
+  background-color: $white-transparent;
+  @include bg-link('');
 }
 .projects{
-  background-color: $blue;
+  background-color: $black-transparent;
+  @include bg-link('');
 }
 .sculpting {
-  background-color: $orange;
+  background-color: $white-transparent;
+  @include bg-link('');
 }
 .contact {
-  background-color: $grey;
+  background-color: #000;
 }

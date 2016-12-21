@@ -9,6 +9,8 @@ $red         : #E74C3C;
 $gold        : #F1C40F;
 $orange      : #E67E22;
 $blue        : #3498DB;
+$black-transparent: rgba(0, 0, 0, 0.94);
+$white-transparent: rgba(255, 255, 255, 0.95);
 
 $color-prim  : $purple;
 $color-sec   : $blue;
@@ -25,7 +27,7 @@ $font-other  : "font-family: 'Varela Round', sans-serif";
 
 // Animations
 @-webkit-keyframes glowing {
-  0%   { box-shadow: inset 0px 0px 25px $black-matte;}
-  50%  { box-shadow: inset 0px 0px 40px $black-matte;}
-  100% { box-shadow: inset 0px 0px 25px $black-matte;}
+  0%   { text-shadow:  0px 0px 10px $white;}
+  50%  { text-shadow:  0px 0px 20px $white;}
+  100% { text-shadow:  0px 0px 10px $white;}
 }

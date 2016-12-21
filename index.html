@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Allerta|Convergence|Varela+Round|Yanone+Kaffeesatz" rel="stylesheet">
+    <link rel="ICON" href="img/logo.png" type="image/ico" />
     <script src="js/jquery-3.1.1.js"></script>
     <!-- <script src="js/jquery-ui-1.9.2.custom.js"></script> -->
     <script src="js/scripts.js"></script>
@@ -11,10 +12,11 @@
   </head>
   <body>
     <div class="intro">
+      <img src="img/logo.png" alt="pheonix">
       <h1>Firebird 3D</h1>
     </div>
     <div class="sections">
-      <div class="section-boxes scanning">
+      <div class="section-boxes scanning"> <!--- Scanning ----->
         <span class="close-box">X</span>
         <h1>3D Scanning</h1>
         <div class="inside-box not-yet">
@@ -33,7 +35,10 @@
           </div>
         </div>
       </div>
-      <div class="section-boxes printing">
+      <div class="section-boxes printing"> <!--- Printing ----->
+        <video autoplay loop src="img/printing.mov" muted poster="logo.png">
+
+        </video>
         <span class="close-box">X</span>
         <h1>3D Printing</h1>
         <div class="inside-box not-yet">
@@ -51,7 +56,10 @@
           </div>
         </div>
       </div>
-      <div class="section-boxes enlargements">
+      <div class="section-boxes enlargements"> <!--- Enlargements ----->
+        <video autoplay loop src="img/enlargement.mov" muted poster="logo.png">
+
+        </video>
         <span class="close-box">X</span>
         <h1>Enlargements</h1>
         <div class="inside-box not-yet">
@@ -70,7 +78,10 @@
           </div>
         </div>
       </div>
-      <div class="section-boxes projects">
+      <div class="section-boxes projects"> <!--- Projects ----->
+        <video autoplay loop src="img/projects.mp4" muted poster="logo.png">
+
+        </video>
         <span class="close-box">X</span>
         <h1>Projects</h1>
         <div class="inside-box not-yet">
@@ -81,15 +92,12 @@
             Creating a Mechanical Raven for the Baltimore Raven's "Raven's Walk" commissioned by Under Armor and Mechanical Bull Sales
             </p>
           </div>
-          <!-- <div class="info-two">
-            <h2>Life Scanning</h2>
-            <p>
-              With our scanning technology, we can even capture living people! The amazing Artec software can compensate for slight movement in order to capture the likeness of a person. This can be used for life size armatures, or even 3D printing people as you see them.
-            </p>
-          </div> -->
         </div>
       </div>
-      <div class="section-boxes sculpting">
+      <div class="section-boxes sculpting"> <!--- Sculpting ----->
+        <video autoplay loop src="img/sculpting.mov" muted poster="logo.png">
+
+        </video>
         <span class="close-box">X</span>
         <h1>Sculpting</h1>
         <div class="inside-box not-yet">
@@ -109,27 +117,25 @@
           </div>
         </div>
       </div>
-      <div class="section-boxes contact">
+      <div class="section-boxes contact"> <!--- Contact ----->
         <span class="close-box">X</span>
         <h1>Contact</h1>
-        <p>Firebird 3D exists to integrate technology to sculpture, offering the ability to expand an artist's body of work with ease, and provide affordable means of doing so.</p>
+        <!-- <p>Firebird 3D exists to integrate technology to sculpture, offering the ability to expand an artist's body of work with ease, and provide affordable means of doing so.</p>
         <p>
         Firebird Tech is operated by Chad Caswell, get a quote, or feel free to ask any questions today!
-      </p>
-        <div class="inside-box">
-          <span>Info</span>
+      </p> -->
+        <div id="show" class="inside-box">
           <div class="info-one">
             <h3>
               Firebird 3D is partners with Firebird Bronze in Damascus Oregon. From the 3D print, CNC enlargement or original sculpture, they can do mold to bronze finished piece.
             </h3>
-            <h3>
+          </div>
+          <div class="info-two">
+            <p>
               To get in touch with Firebird Bronze<br>
               Phone: 503.912.0400<br>
               Info@firebirdbronze.com
-            </h3>
-          </div>
-          <div class="info-two">
-            <h2>Life Scanning</h2>
+            </p>
             <p>
               124 SE Harlow Ave<br>
               Troutdale, OR 97060<br>

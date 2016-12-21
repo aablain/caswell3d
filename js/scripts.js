@@ -11,6 +11,7 @@ $(document).ready(function() {
     // $(".section-boxes").addClass("others");
     // $(this).removeClass("others");
     $(this).addClass("chosen");
+    $("#show").removeClass("not-yet");
   });
 
   $(".section-boxes .close-box").click(function() {
