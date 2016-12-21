@@ -11,8 +11,9 @@ $orange      : #E67E22;
 $blue        : #3498DB;
 $black-transparent: rgba(0, 0, 0, 0.94);
 $white-transparent: rgba(255, 255, 255, 0.95);
+$orange-firebird: rgb(253, 153, 48);
 
-$color-prim  : $purple;
+$color-prim  : $orange;
 $color-sec   : $blue;
 $color-text  : $gold;
 
@@ -27,7 +28,7 @@ $font-other  : "font-family: 'Varela Round', sans-serif";
 
 // Animations
 @-webkit-keyframes glowing {
-  0%   { text-shadow:  0px 0px 10px $white;}
-  50%  { text-shadow:  0px 0px 20px $white;}
-  100% { text-shadow:  0px 0px 10px $white;}
+  0%   { text-shadow:  0px 0px 10px #000;}
+  50%  { text-shadow:  0px 0px 30px #000;}
+  100% { text-shadow:  0px 0px 10px #000;}
 }

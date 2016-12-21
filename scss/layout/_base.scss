@@ -28,7 +28,7 @@
 }
 
 .scanning {
-  background-color: $orange;
+  background-color: $color-prim;
   p {
     opacity: 0;
     margin-top: 0;
@@ -51,5 +51,5 @@
   @include bg-link('');
 }
 .contact {
-  background-color: #000;
+  background-color: $color-prim;
 }
