@@ -7,6 +7,7 @@ $(document).ready(function() {
     $(".sections").addClass("smallerr")
     $(this).addClass("chosen");
     $("#show").removeClass("not-yet");
+    $("#show div").css('opacity', '1');
   });
 
   $(".section-boxes .close-box").click(function() {
@@ -20,7 +21,7 @@ $(document).ready(function() {
     event.stopPropagation();
   });
 
-  $(".inside-box span").click(function() {
+  $(".inside-box .info-span").click(function() {
     // $(".inside-box").removeClass("not-yet");
     $(".not-yet").css('max-height', '600px');
     $(".inside-box div").css('opacity', '1')
