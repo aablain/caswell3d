@@ -1,9 +1,7 @@
 // User-Interface Logic
 $(document).ready(function() {
-  // debugger;
 
   $(".sections .section-boxes").click(function() {
-    // debugger;
     $(".sections").addClass("smallerr")
     $(this).addClass("chosen");
     $("#show").removeClass("not-yet");
@@ -11,7 +9,6 @@ $(document).ready(function() {
   });
 
   $(".section-boxes .close-box").click(function() {
-    // debugger;
     $(".not-yet").css('max-height', '60px');
     $(".inside-box div").css('opacity', '0');
     $("body div").removeClass("smallerr");
@@ -22,7 +19,6 @@ $(document).ready(function() {
   });
 
   $(".inside-box .info-span").click(function() {
-    // $(".inside-box").removeClass("not-yet");
     $(".inside-box .info-span").css('padding', '10px 20px');
     $(".not-yet").css('max-height', '600px');
     $(".inside-box div").css('opacity', '1');

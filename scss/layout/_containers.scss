@@ -87,9 +87,6 @@ body {
   display: flex;
   flex-flow: row wrap;
   color: $white;
-  // & > div {
-  //     transition: all 200ms linear;
-  // }
   @media (min-width: 1500px) {
     .section-boxes {
       height: 450px;
