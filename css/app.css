@@ -120,12 +120,13 @@ body {
     .section-boxes .inside-box span:first-child {
       position: absolute;
       width: 50px;
-      padding: 10px 20px;
+      padding: 20px 40px;
       left: 45%;
       top: -30px;
       border-radius: 5px;
       text-align: center;
       background-color: #E67E22;
+      transition: padding 800ms ease-in-out;
       display: none; }
     .section-boxes .inside-box > div {
       flex-basis: 48%;
