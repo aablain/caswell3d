@@ -18,12 +18,22 @@
 }
 
 .section-boxes {
-  span {
+  & > span {
     position: absolute;
     font-size: 1.4em;
     top: 25px;
     right: 40px;
+  }
+  span {
     opacity: 0;
+  }
+  a, .biggerr {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    &:hover, .biggerr:hover {
+      text-shadow: 2px 2px 5px $black;
+    }
   }
 }
 
